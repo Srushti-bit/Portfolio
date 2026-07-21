@@ -7,7 +7,7 @@ A modern and responsive personal portfolio website showcasing my skills, project
 
 ## 🚀 Live Portfolio
 
-🔗 Portfolio: Add your deployed Vercel link here
+🔗 Portfolio:(https://srushti-portfolio-five.vercel.app/)
 
 ---
 
