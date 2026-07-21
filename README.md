@@ -1,5 +1,8 @@
 # Srushti Lohakare | Portfolio
 
+🌐 Live Portfolio:
+(https://srushti-portfolio-five.vercel.app/)
+
 A modern and responsive personal portfolio website showcasing my skills, projects, certifications, education, and experience as a Software Developer specializing in Artificial Intelligence, Machine Learning, and Data Analytics.
 
 ## 🚀 Live Portfolio
