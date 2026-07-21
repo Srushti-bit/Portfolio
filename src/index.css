@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: #050816;
+  color: white;
+  overflow-x: hidden;
+}
+
+
+/* Global Section Spacing */
+
+section {
+
+  padding-top: 140px;
+  padding-bottom: 140px;
+
+}
+
+
+
+/* Container */
+
+.container {
+
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+
+}
+
+
+
+/* Section heading spacing */
+
+.section-title {
+
+  margin-bottom: 60px;
+
+}
+
+
+
+/* Glass Cards */
+
+.glass-card {
+
+  background:
+    rgba(255, 255, 255, 0.05);
+
+  backdrop-filter:
+    blur(18px);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.1);
+
+  border-radius: 24px;
+
+  transition:
+    all .35s ease;
+
+}
+
+
+
+.glass-card:hover {
+
+  border-color: #22d3ee;
+
+  box-shadow:
+    0 25px 50px rgba(0, 0, 0, .35);
+
+}
+
+/* ================= PROJECTS SECTION ================= */
+
+#projects {
+  padding: 100px 0;
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  transition: 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: #38bdf8;
+}
+
+
+.project-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+
+.project-card p {
+  color: #cbd5e1;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+
+.tech-stack span {
+  background: rgba(56, 189, 248, 0.15);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+
+.project-links {
+  display: flex;
+  gap: 20px;
+}
+
+
+.project-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.project-links a:hover {
+  color: #38bdf8;
+}
+
+
+/* Responsive */
+
+@media(max-width:900px) {
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
