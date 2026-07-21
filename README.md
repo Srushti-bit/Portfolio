@@ -110,7 +110,6 @@ Computer Science & Mathematics
 
 - AWS Academy Graduate – Cloud Foundations
 - Google Cloud Computing Foundations
-- Machine Learning & AI Certifications
 
 ---
 
